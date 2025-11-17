@@ -4510,12 +4510,12 @@ __metadata:
   linkType: hard
 
 "@standardnotes/domain-events@npm:^2.108.1":
-  version: 2.108.1
-  resolution: "@standardnotes/domain-events@npm:2.108.1"
+  version: 2.141.1
+  resolution: "@standardnotes/domain-events@npm:2.141.1"
   dependencies:
-    "@standardnotes/predicates": 1.6.5
-    "@standardnotes/security": 1.7.6
-  checksum: 492bec98838664c3033041df5d25d610e8e8fb0a69358f8dc660fe4a5cb65a9fa3ee6b62829af2edcd1d59640c66926a0c72f0ae0cbdb1804292b6ec02485f9d
+    "@standardnotes/predicates": 1.8.2
+    "@standardnotes/security": 1.17.4
+  checksum: 77922b4da5c0e71bc7ff778f2e604997099bc83ac1736b72cca96e05e1c80f18f6e859540458bf2260363fa511cfed1bfd0cc8d1e7595c1854636617eff55451
   languageName: node
   linkType: hard
 
@@ -4811,10 +4811,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@standardnotes/predicates@npm:1.6.5":
-  version: 1.6.5
-  resolution: "@standardnotes/predicates@npm:1.6.5"
-  checksum: 6bdd927062f8dcbd65f99b93d48bbbbcbe0c525517a5b5827c90a8b22286c99a95c0bb1cdda401e4fe5940e02a04b03e8616596d479d52bad1c783d9953e8d0b
+"@standardnotes/predicates@npm:1.8.2":
+  version: 1.8.2
+  resolution: "@standardnotes/predicates@npm:1.8.2"
+  checksum: d09406e59240da5e474d46c09316199df0a1b4a8a26b5ca3a3215bb401d8aa8c8b4c58a1f0c17a010273326e76f01a98c0662b418066be49f00d33bd2e3de578
   languageName: node
   linkType: hard
 
@@ -4863,7 +4863,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@standardnotes/security@npm:1.7.6, @standardnotes/security@npm:^1.2.0":
+"@standardnotes/security@npm:1.17.4":
+  version: 1.17.4
+  resolution: "@standardnotes/security@npm:1.17.4"
+  dependencies:
+    jsonwebtoken: ^9.0.0
+    reflect-metadata: ^0.2.1
+  checksum: e9cc52627a966d67ffe179a6da3e1635c6b95f30ceddfcb860df21972897aa680e234e041d705e897826c3a90e3d72d47f7787b1990307e846ceb249a18f546f
+  languageName: node
+  linkType: hard
+
+"@standardnotes/security@npm:^1.2.0":
   version: 1.7.6
   resolution: "@standardnotes/security@npm:1.7.6"
   dependencies:
@@ -19961,6 +19971,13 @@ __metadata:
   version: 0.1.13
   resolution: "reflect-metadata@npm:0.1.13"
   checksum: 798d379a7b6f6455501145419505c97dd11cbc23857a386add2b9ef15963ccf15a48d9d15507afe01d4cd74116df8a213247200bac00320bd7c11ddeaa5e8fb4
+  languageName: node
+  linkType: hard
+
+"reflect-metadata@npm:^0.2.1":
+  version: 0.2.2
+  resolution: "reflect-metadata@npm:0.2.2"
+  checksum: a66c7b583e4efdd8f3c3124fbff33da2d0c86d8280617516308b32b2159af7a3698c961db3246387f56f6316b1d33a608f39bb2b49d813316dfc58f6d3bf3210
   languageName: node
   linkType: hard
 
