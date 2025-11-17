@@ -79,7 +79,7 @@
     "lexical": "0.11.3",
     "lint-staged": ">=13",
     "mini-css-extract-plugin": "^2.7.2",
-    "minimatch": "^5.1.1",
+    "minimatch": "^10.1.1",
     "mobx": "^6.8.0",
     "mobx-react-lite": "^3.4.2",
     "node-sass": "^8.0.0",
