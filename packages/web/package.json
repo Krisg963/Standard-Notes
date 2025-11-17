@@ -59,7 +59,7 @@
     "@types/jest": "^29.2.4",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
-    "@types/wicg-file-system-access": "^2020.9.5",
+    "@types/wicg-file-system-access": "^2023.10.7",
     "@zip.js/zip.js": "^2.6.60",
     "autoprefixer": "^10.4.13",
     "babel-loader": "^9.1.2",
